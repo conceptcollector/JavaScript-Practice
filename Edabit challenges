@@ -10,3 +10,8 @@ function addition(a, b) {
 function cubes(a) {
 	return a ** 3;
 }
+
+function circuitPower(voltage, current) {
+	let power = voltage * current;
+	return power;
+}
