@@ -1,17 +1,26 @@
+//How Edabit Works challenge
 function hello() {
 	return "Hello edabit.com";
 }
 
+//Return the Sum of Two Numbers challenge
 function addition(a, b) {
 	let sum = a + b;
 	return sum;
 }
 
+//Buggy Code (Part 1) challenge
 function cubes(a) {
 	return a ** 3;
 }
 
+//Power Calculator challenge
 function circuitPower(voltage, current) {
 	let power = voltage * current;
 	return power;
+}
+
+//Return Something to Me! challenge
+function giveMeSomething(a) {
+	return "something " + a;
 }
