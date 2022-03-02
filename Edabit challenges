@@ -29,3 +29,9 @@ function giveMeSomething(a) {
 function howManySeconds(hours) {
 	return hours * 3600;
 }
+
+//Maximum Edge of a Triangle challenge
+function nextEdge(side1, side2) {
+	side3 = (side1 + side2) - 1;
+	return side3;
+}
