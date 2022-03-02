@@ -27,6 +27,5 @@ function giveMeSomething(a) {
 
 //Convert Hours into Seconds challenge
 function howManySeconds(hours) {
-	hours = (hours * 60) * 60;
-	return hours;
+	return hours * 3600;
 }
