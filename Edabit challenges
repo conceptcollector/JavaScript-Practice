@@ -40,3 +40,8 @@ function nextEdge(side1, side2) {
 function squared(a) {
 	return a * a;
 }
+
+//Sum of Polygon Angles challenge
+function sumPolygon(n) {
+	return (n - 2) * 180;
+}
